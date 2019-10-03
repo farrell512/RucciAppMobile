@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".buatpertanyaan"></activity>
+        <activity android:name=".berandaguru3" />
+        <activity android:name=".berandaguru2" />
+        <activity
+            android:name=".gabungkelas"
+            android:parentActivityName=".beranda" />
+        <activity
+            android:name=".berandaguru"
+            android:parentActivityName=".beranda" />
+        <activity
+            android:name=".rating2"
+            android:parentActivityName=".rating" />
+        <activity
+            android:name=".rating"
+            android:parentActivityName=".beranda" />
+        <activity
+            android:name=".riwayat"
+            android:parentActivityName=".beranda" />
+        <activity
+            android:name=".grup"
+            android:parentActivityName=".beranda" />
+        <activity android:name=".beranda" />
+        <activity android:name=".registerpage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

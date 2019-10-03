@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuBeranda"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/menuGrup"
+        android:title="Grup" />
+    <item
+        android:id="@+id/menuRiwayat"
+        android:title="Riwayat" />
+    <item
+        android:id="@+id/menuGabungKelas"
+        android:title="Gabung Kelas" />
+    <item
+        android:id="@+id/menuKonsultasi"
+        android:title="Konsultasi" />
+    <item
+        android:id="@+id/menuLatihan"
+        android:title="Latihan" />
+    <item
+        android:id="@+id/menuRating"
+        android:title="Rating" />
+</menu>
